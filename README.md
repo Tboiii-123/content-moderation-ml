@@ -50,9 +50,7 @@ Designed for **real-world production use** and easy backend integration.
 ├── model/
 │   ├── moderation_model.joblib
 │   └── vectorizer.joblib
-├── app/
-│   ├── main.py
-│   └── routes.py
+├── main.py
 ├── requirements.txt
 └── README.md
 ```

@@ -29,8 +29,8 @@ app.add_middleware(
 # -----------------------
 # 2️⃣ Load trained ML artifacts
 # -----------------------
-MODEL_FILE = "moderation_model.joblib"
-VECT_FILE = "vectorizer.joblib"
+MODEL_FILE = "model/moderation_model.joblib"
+VECT_FILE = "model/vectorizer.joblib"
 
 try:
     model = joblib.load(MODEL_FILE)
