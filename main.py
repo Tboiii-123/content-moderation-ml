@@ -85,3 +85,6 @@ def moderate(comment: CommentRequest):
         "flags": flags
     }
 
+@app.get("/health")
+def health():
+    return {"status": "ok"}
